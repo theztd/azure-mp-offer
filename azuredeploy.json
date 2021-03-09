@@ -366,9 +366,9 @@
         },
         "storageProfile": {
           "imageReference": {
-            "publisher": "easyproject",
+            "publisher": "easysoftwaresro1593005637384",
             "offer": "ep-vm",
-            "sku": "0.0.1",
+            "sku": "easyproject",
             "version": "latest"
           },
           "osDisk": {

@@ -48,9 +48,10 @@
                 },
                 "osPlatform": "Linux",
                 "imageReference" : {
-                    "publisher": "easyproject",
+                    "publisher": "easysoftwaresro1593005637384",
                     "offer": "ep-vm",
-                    "sku": "0.0.2"
+                    "sku": "easyproject",
+                    "version": "latest"
                 }
             }
         ],
