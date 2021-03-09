@@ -50,7 +50,7 @@
                 "imageReference" : {
                     "publisher": "easyproject",
                     "offer": "ep-vm",
-                    "sku": "0.0.1"
+                    "sku": "0.0.2"
                 }
             }
         ],
