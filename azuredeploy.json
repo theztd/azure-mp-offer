@@ -11,7 +11,7 @@
     },
     "vmName": {
       "type": "string",
-      "defaultValue": "linux-vm",
+      "defaultValue": "Easyproject",
       "metadata": {
         "description": "Name for the Virtual Machine."
       }
