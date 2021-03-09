@@ -369,7 +369,7 @@
             "publisher": "easysoftwaresro1593005637384",
             "offer": "ep-vm",
             "sku": "easyproject",
-            "version": "0.0.2"
+            "version": "0.2.0"
           },
           "osDisk": {
             "caching": "ReadWrite",
