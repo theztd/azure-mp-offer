@@ -327,6 +327,12 @@
         "[parameters('virtualNetworkName')]",
         "[variables('networkSecurityGroupName')]"
       ],
+      "plan": {
+        "name" : "easyproject",
+        "publisher": "easysoftwaresro1593005637384",
+        "product": "ep-vm",
+        "promotionCode": null
+      },
       "properties": {
         "ipConfigurations": [
           {
