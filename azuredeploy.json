@@ -327,6 +327,7 @@
         "[parameters('virtualNetworkName')]",
         "[variables('networkSecurityGroupName')]"
       ],
+      "plan": null,
       "properties": {
         "ipConfigurations": [
           {
