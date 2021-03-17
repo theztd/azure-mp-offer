@@ -20,3 +20,21 @@ Before submitting to Marketplace, the following steps will need to be performed
   - https://docs.microsoft.com/en-us/azure/marketplace/cloud-partner-portal/azure-applications/cpp-skus-tab#package-details-for-solution-template 
   
   `Tags: new, exiting, resource, vm, condition, conditional`
+
+
+Notes
+-----
+
+```bash
+# List all offers and SKUs
+az vm image list --publisher PUBLISHER --all --output table
+
+# Get info about offer (it is simple way to validate offer availability) 
+az vm image show --location westus --urn PUBLISHER:OFFER:SKU:latest
+
+# Resource groups
+az group list -o table
+az group delete -n test7
+
+
+```
