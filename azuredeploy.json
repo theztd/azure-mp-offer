@@ -411,7 +411,7 @@
             "autoUpgradeMinorVersion": true,
             "settings": {
               "fileUris": [
-                "[uri(parameters('_artifactsLocation'), concat('scripts/copyfilefromazure.sh', parameters('_artifactsLocationSasToken')))]"
+                "[uri(parameters('_artifactsLocation'), concat('scripts/init_script.sh', parameters('_artifactsLocationSasToken')))]"
               ]
             },
             "protectedSettings": {
