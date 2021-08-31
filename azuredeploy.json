@@ -217,7 +217,7 @@
     "networkSecurityGroupName": "nsg-ssh",
     "fileToBeCopied": "FileToBeCopied.txt",
     "scriptFolder": "scripts",
-    "scriptFileName": "deploy_app.sh",
+    "scriptFileName": "init_script.sh",
     "scriptArgs": "[concat('-a ', uri(parameters('_artifactsLocation'), '.'), ' -t \"', parameters('_artifactsLocationSasToken'), '\" -p ', variables('scriptFolder'), ' -f ', variables('fileToBeCopied'))]"
   },
   "resources": [
