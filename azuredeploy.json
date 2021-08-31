@@ -327,11 +327,6 @@
         "[parameters('virtualNetworkName')]",
         "[variables('networkSecurityGroupName')]"
       ],
-      "plan": {
-        "name" : "easyproject",
-        "publisher": "easysoftwaresro1593005637384",
-        "product": "ep-vm"
-      },
       "properties": {
         "ipConfigurations": [
           {
@@ -359,6 +354,11 @@
         "[parameters('storageAccountName')]",
         "[variables('nicName')]"
       ],
+      "plan": {
+        "name" : "easyproject",
+        "publisher": "easysoftwaresro1593005637384",
+        "product": "ep-vm"
+      },
       "properties": {
         "hardwareProfile": {
           "vmSize": "[parameters('vmSize')]"
